@@ -1,0 +1,105 @@
+TITLE PAGE
+
+DEVIXO SOLUTIONS
+
+AI & ML  INTERNSHIP PROGRAM
+
+TASK # 1
+
+PYTHON PROGRAMMING, DATA ANALYSIS & VISUALIZATION
+
+
+
+STUDENT NAME: MUHAMMAD HUZAIFA
+
+INTERNSHIP DOMAIN: AI & ML
+
+SUBMISSION DATE 4 NOVEMBER 2026
+
+
+
+
+DEVIXO SOLUTIONS AI/ML INTERNSHIP
+TASK 01 : EMPLOYEE ATTRITION DATA ANALYSIS & DASHBOARD REPORT
+Internship Program:	AI/ML Engineering Cohort	Dataset Shape:	4,653 Rows × 9 Columns
+
+Task Deliverable:	Task 01 Pipeline & Bonus
+Dashboard
+
+Cleaned Rows:	3,656 Rows (Duplicates
+Dropped)
+
+Execution Env:	Google Colab & Streamlit	Target Feature:	LeaveOrNot (0 = Retained, 1
+= Left)
+
+
+Executive Overview
+This report documents the end-to-end execution of Devixo Solutions AI/ML Internship Task 01 . The objective is to analyze workforce demographics, evaluate factors contributing to employee turnover, execute rigorous statistics and visualization pipelines, and construct an interactive web dashboard for real-time decision-making.
+
+Part 1 & 2: Data Loading, Inspection & Preprocessing
+The dataset Employee. csv was loaded into pandas. Data integrity checks identiﬁed 997 duplicate records, which were pruned to prevent statistical bias during model training and visualization.
+1.Python Environment Setup & Preprocessing Code
+
+
+
+
+
+
+
+
+2.Code Output Execution Screenshot
+
+Part 3 & 4: Statistical Analysis & Visualization Pipeline
+Descriptive statistics were computed across numeric and categorical attributes. Correlation matrices were generated to observe underlying linear dependencies with the target variable LeaveOrNot.
+Numerical Feature Statistics
+
+Metric	JoiningYear	PaymentTier	Age	ExperienceInCurrentDomain	LeaveOrNot
+Mean	201 5.06	2.69 stroke	30.95	2.90	0.3936
+Std Dev	1 .86	0.56	5.1 0	1 .56	0.4886
+Min	201 2.00	1 .00	22.00	0.00	0.0000
+Median (50%)	201 5.00	3.00	30.00	3.00	0.0000
+Max	201 8.00	3.00	41 .00	7.00	1 .0000
+Key Visualizations (Generated Output Artifacts)
+
+
+Visualization Execution Script
+
+Bonus Task: Streamlit Web Dashboard Implementation & Expected Output
+An interactive dashboard was authored using Streamlit and Plotly to enable dynamic ﬁltering across City, Education, Payment Tier, and Gender demographics.
+1.Python Implementation Script (`app.py`)
+
+
+
+
+
+
+
+
+
+
+
+
+2.Expected Streamlit UI Output Layout
+
+
+
+Total
+3,656	Attrition
+1 ,439	Rate
+39.4%
+
+
+
+
+
+
+Part 5: Detailed Data Insights & Findings
+&Target Distribution: The overall employee attrition rate in the cleaned dataset stands at 39.36%, pointing to substantial turnover pressure.
+&Age Demographics: Highest employee concentration is centered around young professionals (27–30 age group), who also exhibit higher mobility.
+&Geographical Hubs: Bangalore represents the largest workforce Hub, followed by Pune and New Delhi.
+&Education Dynamics: Employees with Bachelors degrees dominate the workforce (71 .3%), followed by Masters (23.0%) and PhDs (5.6%).
+&Payment Tier Pressure: Lower payment tiers experience heavier attrition pressure compared to Tier 3.
+&Tenure & Experience: Employees with lower domain experience (0–3 years) display a higher tendency to leave compared to tenured staff.
+Part 6: Final Conclusion
+This project successfully completed the data analysis pipeline for Devixo Solutions Task 01 . Structural checks, duplicate removal, comprehensive exploratory data analysis, 1 0 professional visualizations, and an interactive Streamlit dashboard script were delivered. The extracted insights conﬁrm that Age, Payment Tier, and Domain Experience are primary drivers of employee retention, establishing a ﬁrm data-driven baseline for upcoming predictive machine learning modeling tasks.
+GITHUB LINK: https://github.com/MuhammadHuzaifa-MH
